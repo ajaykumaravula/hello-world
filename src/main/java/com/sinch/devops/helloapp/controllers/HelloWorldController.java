@@ -38,7 +38,7 @@ public class HelloWorldController {
         response.put(MESSAGE_KEY, "Hello World!");
         response.put(HOSTNAME_KEY, host);
         response.put(IP_KEY, ip);
-        response.put(VERSION, "v3");
+        response.put(VERSION, "v4");
         response.put(COUNTER,++counter+"");
         return response;
     }
